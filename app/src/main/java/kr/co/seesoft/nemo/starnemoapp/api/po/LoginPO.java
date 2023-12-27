@@ -9,6 +9,7 @@ public class LoginPO {
     private String UserId;
     private String UserId2;
        private String UserId3;
+    private String UserId4;
     /** 패스워드 */
     private String Password;
     /** 병원코드? */
