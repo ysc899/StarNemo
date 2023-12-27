@@ -7,18 +7,12 @@ package kr.co.seesoft.nemo.starnemoapp.api.po;
 public class LoginPO {
     /** id sss*/
     private String UserId;
-    private String UserId2;
-    private String UserId3;
     /** 패스워드 */
     private String Password;
     /** 병원코드? */
     private String InstCd;
     /** 시큐어키 추가되어야함 */
 //    private String secure;
-
-    public String getUserId2() {
-        return UserId2;
-    }
 
     public String getUserId() {
         return UserId;
