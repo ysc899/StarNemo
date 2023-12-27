@@ -15,6 +15,9 @@
         <!-- STAR API -->
         <domain includeSubdomains="true">100.100.50.215</domain>
         <domain includeSubdomains="true">219.252.39.216</domain>
+
+        <!-- TEST API -->
+        <domain includeSubdomains="true">www.infralab.net</domain>
     </domain-config>
 
 </network-security-config>
