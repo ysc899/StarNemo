@@ -14,9 +14,7 @@ public class LoginPO {
     private String InstCd;
     /** 시큐어키 추가되어야함 */
 //    private String secure;
-    public String getUserId3() {
-        return UserId3;
-    }
+
     public String getUserId() {
         return UserId;
     }
