@@ -7,6 +7,7 @@ package kr.co.seesoft.nemo.starnemoapp.api.po;
 public class LoginPO {
     /** id ss*/
     private String UserId;
+    private String UserId2;
     /** 패스워드 */
     private String Password;
     /** 병원코드? */
