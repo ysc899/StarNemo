@@ -1,0 +1,18 @@
+Index: app/src/main/java/kr/co/seesoft/nemo/starnemoapp/api/po/LoginPO.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package kr.co.seesoft.nemo.starnemoapp.api.po;\r\n\r\n\r\n/**\r\n * 로그인용 PO\r\n */\r\npublic class LoginPO {\r\n    /** id sss*/\r\n    private String UserId;\r\n    private String UserId2;\r\n    /** 패스워드 */\r\n    private String Password;\r\n    /** 병원코드? */\r\n    private String InstCd;\r\n    /** 시큐어키 추가되어야함 */\r\n//    private String secure;\r\n\r\n\r\n    public String getUserId() {\r\n        return UserId;\r\n    }\r\n\r\n    public void setUserId(String userId) {\r\n        UserId = userId;\r\n    }\r\n\r\n    public String getPassword() {\r\n        return Password;\r\n    }\r\n\r\n    public void setPassword(String password) {\r\n        Password = password;\r\n    }\r\n\r\n    public String getInstCd() {\r\n        return InstCd;\r\n    }\r\n\r\n    public void setInstCd(String instCd) {\r\n        InstCd = instCd;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return \"LoginPO{\" +\r\n                \"UserId='\" + UserId + '\\'' +\r\n                \", Password='\" + Password + '\\'' +\r\n                \", InstCd='\" + InstCd + '\\'' +\r\n                '}';\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/kr/co/seesoft/nemo/starnemoapp/api/po/LoginPO.java b/app/src/main/java/kr/co/seesoft/nemo/starnemoapp/api/po/LoginPO.java
+--- a/app/src/main/java/kr/co/seesoft/nemo/starnemoapp/api/po/LoginPO.java	
++++ b/app/src/main/java/kr/co/seesoft/nemo/starnemoapp/api/po/LoginPO.java	
+@@ -8,6 +8,7 @@
+     /** id sss*/
+     private String UserId;
+     private String UserId2;
++    private String UserId3;
+     /** 패스워드 */
+     private String Password;
+     /** 병원코드? */
